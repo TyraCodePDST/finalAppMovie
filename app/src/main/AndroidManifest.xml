@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vuthyra.moviefavorite">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="unspecified"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activity to load detail of the movie data-->
+        <activity android:name="com.example.vuthyra.moviefavorite.DetailActivity"
+            android:label="@string/detail_name"
+        android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="unspecified"/>
+
+        <!-- Activity that loads a list of favorited movies. -->
+        <activity android:name="com.example.vuthyra.moviefavorite.FavoriteActivity"
+            android:screenOrientation="unspecified"
+            android:label="@string/favorite_name"/>
+
+
+    </application>
+
+
+
+
+
+</manifest>

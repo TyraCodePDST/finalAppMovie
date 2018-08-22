@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MovieFavorite</string>
+
+    <!-- Sort by order of most popular movie, and higly rated movie. -->
+    <string name="sort_by_most_popular">Most Popular</string>
+    <string name="sort_by_highest_rated">Highest Rated</string>
+    <string name="sort_by_favorite_movies">My Favorites</string>
+    <string name="detail_name" >Movie Information</string>
+    <string name="favorite_name">Favorite Movies</string>
+
+    <!-- All other strings to be hardcoded here in strings.xml -->
+    <string name="snackbar_added_favorite">Added to Favorite</string>
+    <string name="snackbar_deleted_favorite">Deleted from Favorite</string>
+    <string name="error_no_json_data">There is no data available</string>
+    <string name="error_no_api_key">Please put your own api key to continue</string>
+    <string name="null_onClick">This is null, in onClick method</string>
+
+
+</resources>
